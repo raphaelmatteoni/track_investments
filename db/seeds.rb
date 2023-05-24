@@ -1,7 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+Stock.create([ticket: "AESB3", company_name: "AES BRASIL ENERGIA S.A.", identification_document: "37663076000107", value: 12.43, category: "ENERGIA ELÉTRICA"])
+Stock.create([ticket: "AGRO3", company_name: "BRASILAGRO - CIA BRAS DE PROP AGRICOLAS", identification_document: "07628528000159", value: 23.21, category: "AGRICULTURA"])
+Stock.create([ticket: "BBAS3", company_name: "BCO BRASIL S.A.", identification_document: "00000000000191", value: 44.56, category: "BANCOS"])
+Stock.create([ticket: "CPFE3", company_name: "CPFL ENERGIA S.A.", identification_document: "02429144000193", value: 31.80, category: "ENERGIA ELÉTRICA"])
+Stock.create([ticket: "CXSE3", company_name: "CAIXA SEGURIDADE PARTICIPAÇÕES S.A.", identification_document: "22543331000100", value: 9.87, category: "CORRETORAS DE SEGUROS"])
+Stock.create([ticket: "EGIE3", company_name: "ENGIE BRASIL ENERGIA S.A.", identification_document: "02474103000119", value: 42.17, category: "ENERGIA ELÉTRICA"])
+Stock.create([ticket: "SANB3", company_name: "BCO SANTANDER (BRASIL) S.A.", identification_document: "90400888000142", value: 13.71, category: "BANCOS"])
+Stock.create([ticket: "TAEE3", company_name: "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.", identification_document: "07859971000130", value: 12.39, category: "ENERGIA ELÉTRICA"])
+Stock.create([ticket: "UNIP3", company_name: "UNIPAR CARBOCLORO S.A.", identification_document: "33958695000178", value: 66.13, category: "QUÍMICOS DIVERSOS"])
+Stock.create([ticket: "VALE3", company_name: "VALE S.A.", identification_document: "33592510000154", value: 65.06, category: "MINERAIS METÁLICOS"])
